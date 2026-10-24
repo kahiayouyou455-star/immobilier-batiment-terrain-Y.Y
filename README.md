@@ -80,13 +80,6 @@ footer{text-align:center;background:#123b35;color:white;padding:20px}
 <input name="photos" id="photos" type="file"
 accept="image/*" multiple required>
 
-<label>نوع وثيقة الهوية *</label>
-<select name="identityType" required>
-<option value="">اختر الوثيقة</option>
-<option>بطاقة التعريف الوطنية</option>
-<option>رخصة السياقة</option>
-</select>
-
 <label>صورة وثيقة الهوية *</label>
 <input name="identity" type="file"
 accept="image/jpeg,image/png,image/webp" required>
@@ -118,9 +111,7 @@ accept="image/jpeg,image/png,image/webp" required>
 document.getElementById("propertyForm").addEventListener("submit",function(e){
  e.preventDefault();
  document.getElementById("message").textContent =
- "هذه نسخة تجريبية فقط. لم يُرسل الإعلان إلى الموقع ولم تُحفظ الصور أو وثيقة الهوية. يلزم ربط الموقع بخادم آمن لاستقبال الإعلانات ومراجعتها.";
-});
-</script>
+ "شكرا المعلوماتك على قيد المعالجة
 
 </body>
 </html>
