@@ -80,16 +80,6 @@ footer{text-align:center;background:#123b35;color:white;padding:20px}
 <input name="photos" id="photos" type="file"
 accept="image/*" multiple required>
 
-<label>صورة وثيقة الهوية *</label>
-<input name="identity" type="file"
-accept="image/jpeg,image/png,image/webp" required>
-
-<p class="small">
-وثيقة الهوية وثيقة شخصية حساسة. لا ترفع وثائق حقيقية
-في هذه النسخة التجريبية؛ فالملف لا يوفر تخزينًا آمنًا
-ولا يرسلها إلى الإدارة.
-</p>
-
 <button type="submit">إرسال الإعلان للمراجعة</button>
 </form>
 <div id="message"></div>
